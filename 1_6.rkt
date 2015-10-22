@@ -30,7 +30,6 @@
 )
 
 (define (sqrt-iter guess x)
-  (display (good_enough? guess x))
   (new-if (good_enough? guess x) guess (sqrt-iter (improve guess x) x) )
 )
 
