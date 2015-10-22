@@ -1,6 +1,7 @@
 #lang scheme
 
-;; add numbers from lower bound to upper bound
+;; add all numbers from lower bound to upper bound
+;; using recursion
 (define (add lower_bound upper_bound)
   (
     cond((> lower_bound upper_bound) 0)
